@@ -1,0 +1,24 @@
+.tox
+.cache/v/cache
+docs/_build
+binance/__pycache__/
+build/
+dist/
+python_binance.egg-info/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.zip
+*.checkpoint
+*.env
+*.pickle
+*.log
+*.txt
+
+*.bat
+!frames/
+!space_garbage_game/
+!requirements.txt
+
