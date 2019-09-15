@@ -13,7 +13,7 @@ def get_num(x):
 @pytest.fixture
 def browser():
     print("\nstart browser for test..")
-    #browser = webdriver.Chrome()
+    browser = webdriver.Chrome()
     yield browser
     print("\nquit browser..")
     time.sleep(2)
