@@ -14,7 +14,6 @@ def get_num(x):
 def browser():
     print("\nstart browser for test..")
     #browser = webdriver.Chrome()
-    browser = webdriver.Chrome(r'C:\\chromedriver\chromedriver.exe')
     yield browser
     print("\nquit browser..")
     time.sleep(2)
